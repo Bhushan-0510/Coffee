@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero1 {
+    background-image: url(coffee-hero-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+span {
+    color: orange;
+}
+
+.navbar-brand h1:hover {
+    color: orange !important;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.navbar span:hover {
+    color: white;
+}
+
+.navbar h1:hover {
+    color: orange;
+    font-size: 3rem;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+.navbar ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+span {
+    color: orange;
+}
+
+
+.content {
+    color: white;
+    font-size: 1.5rem;
+    margin: 16px;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.submit {
+    /* padding: 10px 20px; */
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.submit a {
+    text-decoration: none;
+    color: black;
+}
+
+.submit:hover {
+    background-color: orange;
+    color: white !important;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero2 {
+    background-image: url('coffee 2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 0 2rem 2rem 2rem; /* Remove top padding */
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center vertically and horizontally */
+    /* transition: 0.5s; */ /* Remove if not using sliding */
+}
+
+.form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    outline: none;
+}
+
+.form label {
+    color: orange;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    margin: 20px 0 10px 0;
+    letter-spacing: 1px;
+}
+
+span {
+    color: orange;
+}
+
+.btn {
+    /* padding: 10px 20px; */
+     border-radius: 10px;
+    font-size: 15px;
+    background-color: white;
+    margin: 3rem;
+}
+.btn a{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+}
+.btn:hover {
+    background-color: orange;
+    color: white !important;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+.btn1 {
+    /* padding: 10px 20px; */
+     border-radius: 10px;
+    font-size: 15px;
+    background-color: orange;
+    margin: 3rem;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white; 
+    background-color: white;
+}
+.btn1:hover {
+    background-color: white;
+    color:black  !important;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+.form-stack {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    
+}
+
+.form.active {
+    display: flex;
+    transition: 0.5s;
+}
+
+.progresss {
+    margin-top: 0 !important;
+      margin-bottom: 1rem !important;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    background-color: white;
+    border: 1px solid;
+     border-radius: 5px;   
+     transition: 5s;
+    
+}
+
+.progresss div{
+     font-size: 25px;
+     font-weight: bolder;
+    color: white;
+    padding: 3;
+    border: 1px solid;
+     border-radius: 5px; 
+     transition: 0.5s;
+}
+
+
+.hero3 {
+    background-image: url(coffee3.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero3 h1 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
